@@ -1,0 +1,60 @@
+body {
+    margin:0;
+    font-family: 'Playfair Display', serif;
+    background:#f8f5f0;
+    color:#333;
+    text-align:center;
+}
+
+.script {
+    font-family: 'Great Vibes', cursive;
+    font-size:50px;
+    color:goldenrod;
+}
+
+.cover {
+    height:100vh;
+    background:url('assets/bg.jpg') center/cover;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+}
+
+.cover-content {
+    background:rgba(0,0,0,0.5);
+    padding:40px;
+    border-radius:10px;
+}
+
+button, .btn {
+    background:goldenrod;
+    color:white;
+    padding:10px 20px;
+    border:none;
+    text-decoration:none;
+    display:inline-block;
+    margin-top:15px;
+    cursor:pointer;
+}
+
+.section {
+    padding:60px 20px;
+}
+
+.profile {
+    display:flex;
+    justify-content:center;
+    gap:40px;
+    flex-wrap:wrap;
+}
+
+.profile img {
+    width:200px;
+    border-radius:10px;
+}
+
+footer {
+    padding:20px;
+    background:#eee;
+}
